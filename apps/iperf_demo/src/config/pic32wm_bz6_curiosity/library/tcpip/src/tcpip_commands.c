@@ -8655,16 +8655,17 @@ typedef struct
     const char* resource;
     const char* proto;
     uint16_t    port;
+    uint16_t    flags;
 }WSC_TEST_PRESET;
 
 // list of preset servers
 static const WSC_TEST_PRESET wsc_presets[] = 
 {
 // { server, resource, proto, port}
-    {"ws.ifelse.io", 0, 0, 80},
-    {"ws.ifelse.io", 0, 0, 443},
-    {"echo.websocket.org", 0, 0, 443},
-    {"497877863b54bfd9.octt.openchargealliance.org", "Mchp", "ocpp1.6", 16968},
+    {"ws.ifelse.io", 0, 0, 80, (uint16_t)TCPIP_WSC_CONN_FLAG_SECURE_OFF},
+    {"ws.ifelse.io", 0, 0, 443, (uint16_t)TCPIP_WSC_CONN_FLAG_SECURE_DEFAULT},
+    {"echo.websocket.org", 0, 0, 443, (uint16_t)TCPIP_WSC_CONN_FLAG_SECURE_DEFAULT},
+    {"497877863b54bfd9.octt.openchargealliance.org", "Mchp", "ocpp1.6", 16968, (uint16_t)TCPIP_WSC_CONN_FLAG_SECURE_ON},
 };
 
 // message to be sent for a connection close
@@ -8739,7 +8740,7 @@ static char wsc_proto[16 + 1] = "";
 // current port to connect to
 static uint16_t wsc_port = 80U;
 // if proto usage is enforced
-static int wsc_proto_enforced = 1;
+static int32_t wsc_proto_enforced = 1;
 // current base settings for the connection flags
 static uint16_t wsc_flags = (uint16_t)TCPIP_WSC_CONN_FLAG_NONE;
 
@@ -8982,8 +8983,8 @@ static void F_Command_WsPreset(SYS_CMD_DEVICE_NODE* pCmdIO, int argc, char** arg
         return;
     }
 
-    int presIx; 
-    (void)FC_Str2L(argv[2], 10, &presIx);
+    uint32_t presIx; 
+    (void)FC_Str2UL(argv[2], 10, &presIx);
     if(presIx >= sizeof(wsc_presets) / sizeof(*wsc_presets))
     {
         (*pCmdIO->pCmdApi->print)(cmdIoParam, "wsc preset - wrong preset index! Maxim '%d'\r\n", sizeof(wsc_presets) / sizeof(*wsc_presets) - 1);
@@ -9021,6 +9022,7 @@ static void F_Command_WsPreset(SYS_CMD_DEVICE_NODE* pCmdIO, int argc, char** arg
     }
 
     wsc_port = preset->port;
+    wsc_flags = preset->flags;
 
     Wsc_PrintSettings(pCmdIO, argv);
 }
@@ -9034,6 +9036,7 @@ static void Wsc_PrintSettings(SYS_CMD_DEVICE_NODE* pCmdIO, char** argv)
     (*pCmdIO->pCmdApi->print)(cmdIoParam, "\tresource: '%s'\r\n", wsc_resource[0] == '\0' ? "none" : wsc_resource);
     (*pCmdIO->pCmdApi->print)(cmdIoParam, "\tproto: '%s'\r\n", wsc_proto[0] == '\0' ? "none" : wsc_proto);
     (*pCmdIO->pCmdApi->print)(cmdIoParam, "\tport: %d\r\n", wsc_port);
+    (*pCmdIO->pCmdApi->print)(cmdIoParam, "\tflags: 0x%02x\r\n", wsc_flags);
     (*pCmdIO->pCmdApi->print)(cmdIoParam, "\tproto_enforced: '%d'\r\n", wsc_proto_enforced);
 } 
 
@@ -9325,7 +9328,7 @@ static void F_Command_WsRxSize(SYS_CMD_DEVICE_NODE* pCmdIO, int argc, char** arg
 
     if(argc > 2)
     {
-        size_t bSize;
+        uint32_t bSize;
         (void)FC_Str2UL(argv[2], 10, &bSize);
         if(bSize == 0U || bSize > sizeof(U_WSC_RD_BUFF.uBuffer))
         {

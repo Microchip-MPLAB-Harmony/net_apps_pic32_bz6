@@ -11924,7 +11924,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity\definitions.h</file>
-         <hash>a6efb1505e35f78953506877d961a0953aed5bd3ba2da45fc0ec1091672e9f70</hash>
+         <hash>2b6cb08cb44fd7dddd94c981ace5b51f7ccad5ded06b298149aae3c87de2da94</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity\device.h</file>
@@ -12028,7 +12028,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity\initialization.c</file>
-         <hash>54503bb4dd78cdac839e3e9585f103bb57acd80e62bd34a91115c89c2e71249d</hash>
+         <hash>6e05f1d9a7bd8e419f0ce8614bdae436e45fe175f5dda8f1c44007774ca85c24</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity\interrupts.c</file>
@@ -12368,7 +12368,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity\library\tcpip\src\tcpip_commands.c</file>
-         <hash>b582942addd6e9972f92477c15bef7824518cb06d925053d4ba0c8d5f831e49c</hash>
+         <hash>bb7f14aab34a4cec3cdacf999672df5840b3cca25c08d37d52b226a7b71cfa3e</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity\library\tcpip\src\tcpip_commands_manager.h</file>
