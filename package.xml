@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Package name="replaceme">
+<Package name="net_apps_pic32_bz6">
     <Dependencies>
+        <Dependency name="net" version="v3.14.0"/>
+        <Dependency name="core" version="v3.15.1"/>
+        <Dependency name="csp" version="v3.22.0"/>
+        <Dependency name="bsp" version="v3.22.0"/>
+        <Dependency name="crypto" version="v3.8.2"/>
+        <Dependency name="wolfssl" version="v5.4.0"/>
+        <Dependency name="wolfMQTT" version="v1.11.1"/>
+        <Dependency name="usb" version="v3.15.0"/>
     </Dependencies>
 </Package>
