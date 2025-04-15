@@ -1,7 +1,7 @@
 ﻿![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png)
 ![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png)
 
-# MPLAB® Harmony 3 Network Application Examples for PIC32CX-BZ6 Family
+# MPLAB® Harmony 3 Network Application Examples for PIC32CX-BZ6 and PIC32WM-BZ6 Family
 
 MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller and microprocessor devices.  Refer to the following links for more information.
 
@@ -11,12 +11,12 @@ MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded
 - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony)
 - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/)
 
-This repository contains the MPLAB® Harmony 3 Network Application Examples for PIC32CX-BZ6 Family
+This repository contains the MPLAB® Harmony 3 Network Application Examples for PIC32CX-BZ6 and PIC32WM-BZ6 Family
 
-- [Release Notes](./release_notes.md)
+- [Release Notes](release_notes.md)
 - [MPLAB® Harmony License](Microchip_SLA001.md)
 
-To clone or download these applications from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/net_apps_pic32_bz6/) and then click **Clone**<br /> button to clone this repository or download as zip file. This content can also be<br /> downloaded using content manager by following these [instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki).
+To clone or download these applications from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/net_apps_pic32_bz6/) and then click **Clone**<br /> button to clone this repository or download as zip file. This content can also be downloaded using MCC content manager available as part of the MPLAB® X IDE.
 
 ## Contents Summary
 
@@ -26,10 +26,10 @@ To clone or download these applications from Github, go to the [main page of thi
 
 ## Code Examples
 
-Click [here](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=NET_APPS_PIC32_BZ6_H3_TCP_IP_APP_PIC32-BZ6_FAMILY&redirect=true) to view the online documentation of code examples hosted in this repository.
+Click [here](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=NET_APPS_PIC32_BZ6_H3_TCP_IP_APP_PIC32CX_BZ6_AND_PIC32WM_BZ6_FAMILY&redirect=true) to view the online documentation of code examples hosted in this repository.
 
 To view the documentation offline, follow these steps:
- - Download the publication as a zip file from [here](https://onlinedocs.microchip.com/download/GUID-28B00AE9-DB94-4672-9825-ED4A435B177A?type=webhelp).
+ - Download the publication as a zip file from [here](https://onlinedocs.microchip.com/download/GUID-16F355A8-8F76-4841-81DF-485E261702B6?type=webhelp).
  - Extract the zip file into a folder.
  - Navigate to the folder and open **index.html** in a web browser of your choice.
 
