@@ -13282,7 +13282,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity\definitions.h</file>
-         <hash>a51ebfd14c918898d224177346773d71a0e3584d4b35bab54d34ec072ea551ca</hash>
+         <hash>8296069b02d8f40114c2d9ca0eb3382c848a7e8b616880428105d5ab2d2599c7</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity\device.h</file>
@@ -13386,7 +13386,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity\initialization.c</file>
-         <hash>eaac96a4e7755e6982485dfbded3e4762da74591bb07a88724b63dfd068da089</hash>
+         <hash>dfc511aadefa030bca0fe14864ae93ab0ad3bfb8e83645d29f1ae990ae499c06</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity\interrupts.c</file>
@@ -13754,7 +13754,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity\library\tcpip\src\tcpip_helpers.c</file>
-         <hash>baba2d293a5b7dc4366d27c7eee7ed07b9b8ffb315c66cd9b33e0edcb173de52</hash>
+         <hash>41c23866d5cc4c9793675c8220616786346e2d2a6bd4f7b0ef437bd76550ef8d</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity\library\tcpip\src\tcpip_helpers_private.h</file>
@@ -13894,7 +13894,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity\library\tcpip\tcpip_mac.h</file>
-         <hash>826b9ce5e088b2da951c429e95d2a2315ece459e27555365f8254bead289acaf</hash>
+         <hash>c506de0090cf8415a7c4c2b499a546447a66c32f1fa941c6669bfe0d96985a47</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity\library\tcpip\tcpip_mac_bridge.h</file>
