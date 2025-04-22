@@ -18660,7 +18660,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity_freertos\configuration.h</file>
-         <hash>f58dc6c24fb885f88a80facaaab67593dc9aa59fd1cbbd1873f59421994a65ee</hash>
+         <hash>b57d5e6491afb03e89b83e8790810768337cadfc3ea582d6ec027a6787010125</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity_freertos\crypto\crypto.h</file>
@@ -19208,7 +19208,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity_freertos\library\tcpip\src\tcpip_helpers.c</file>
-         <hash>baba2d293a5b7dc4366d27c7eee7ed07b9b8ffb315c66cd9b33e0edcb173de52</hash>
+         <hash>41c23866d5cc4c9793675c8220616786346e2d2a6bd4f7b0ef437bd76550ef8d</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity_freertos\library\tcpip\src\tcpip_helpers_private.h</file>
@@ -19348,7 +19348,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity_freertos\library\tcpip\tcpip_mac.h</file>
-         <hash>826b9ce5e088b2da951c429e95d2a2315ece459e27555365f8254bead289acaf</hash>
+         <hash>c506de0090cf8415a7c4c2b499a546447a66c32f1fa941c6669bfe0d96985a47</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity_freertos\library\tcpip\tcpip_mac_bridge.h</file>

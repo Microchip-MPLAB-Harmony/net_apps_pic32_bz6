@@ -842,9 +842,9 @@ void SYS_Initialize ( void* data )
 
     NVM_Initialize();
 
-    EVSYS_Initialize();
-
     SERCOM0_USART_Initialize();
+
+    EVSYS_Initialize();
 
 	BSP_Initialize();
 
