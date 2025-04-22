@@ -551,9 +551,9 @@ void SYS_Initialize ( void* data )
 
     TC0_TimerInitialize();
 
-    SERCOM0_USART_Initialize();
-
     EVSYS_Initialize();
+
+    SERCOM0_USART_Initialize();
 
 	BSP_Initialize();
 
