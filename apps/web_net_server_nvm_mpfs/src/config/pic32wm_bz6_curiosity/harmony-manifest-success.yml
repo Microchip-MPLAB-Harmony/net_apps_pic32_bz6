@@ -4,7 +4,7 @@
 
 
 project: web_net_server_nvm_mpfs
-creation_date: 2025-04-22T10:55:01.381-07:00[America/Phoenix]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2025-05-01T16:20:40.860-07:00[America/Phoenix]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 11
 mcc_mode: IDE            # [IDE|Standalone|Headless]
 mcc_version: v5.5.2
@@ -15,10 +15,10 @@ compiler: XC32 4.60
 
 modules:
     - {name: "core", version: "v3.15.1"}
-    - {name: "csp", version: "v3.22.0"}
+    - {name: "csp", version: "v3.22.2"}
     - {name: "CMSIS_5", version: "5.9.0"}
     - {name: "wolfssl", version: "v5.4.0"}
-    - {name: "net", version: "dev_aa"}
+    - {name: "net", version: "v3.14.0"}
     - {name: "bsp", version: "v3.22.0"}
     - {name: "crypto", version: "v3.8.2"}
 

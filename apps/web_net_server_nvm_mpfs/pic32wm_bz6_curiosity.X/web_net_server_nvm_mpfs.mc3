@@ -17724,7 +17724,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity\configuration.h</file>
-         <hash>76af6bc25f6e9dfd9f840b45044f8ef143e9a6690ca885d39d0a2e6e8d005004</hash>
+         <hash>60fd451ba2e38d7b669795268182dd08e403fef307ee893417962332d9c570de</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity\crypto\crypto.h</file>

@@ -2,7 +2,7 @@
 
 manifest_file_version: 1.0.0
 project: web_net_server_nvm_mpfs_freertos
-creation_date: 2025-04-22T10:57:17.569-07:00[America/Phoenix]
+creation_date: 2025-05-01T16:25:12.427-07:00[America/Phoenix]
 operating_system: Windows 11
 mcc_mode: IDE
 mcc_mode_version: v6.25
@@ -19,10 +19,10 @@ device_library: {library_class: com.microchip.mcc.harmony.Harmony3Library, name:
 packs: {name: PIC32CX-BZ6_DFP, version: 1.2.17}
 modules:
 - {name: core, type: HARMONY, version: v3.15.1}
-- {name: csp, type: HARMONY, version: v3.22.0}
+- {name: csp, type: HARMONY, version: v3.22.2}
 - {name: CMSIS_5, type: HARMONY, version: 5.9.0}
 - {name: FreeRTOS-Kernel, type: HARMONY, version: V11.1.0}
 - {name: wolfssl, type: HARMONY, version: v5.4.0}
-- {name: net, type: HARMONY, version: dev_aa}
+- {name: net, type: HARMONY, version: v3.14.0}
 - {name: bsp, type: HARMONY, version: v3.22.0}
 - {name: crypto, type: HARMONY, version: v3.8.2}
