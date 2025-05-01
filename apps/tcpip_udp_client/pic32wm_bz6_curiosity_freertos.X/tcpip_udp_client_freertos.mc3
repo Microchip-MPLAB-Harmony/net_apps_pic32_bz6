@@ -12781,7 +12781,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity_freertos\definitions.h</file>
-         <hash>eab2a66cda3122c03dda8a8117b0ba117e2e416eaee612467e4d6180280b119b</hash>
+         <hash>e25d37cc34acf8bd3809ce81c78da352b05fcc35f00a630e83f6ea4642c66611</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity_freertos\device.h</file>
@@ -12889,7 +12889,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity_freertos\initialization.c</file>
-         <hash>6e05f1d9a7bd8e419f0ce8614bdae436e45fe175f5dda8f1c44007774ca85c24</hash>
+         <hash>54503bb4dd78cdac839e3e9585f103bb57acd80e62bd34a91115c89c2e71249d</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32wm_bz6_curiosity_freertos\interrupts.c</file>
