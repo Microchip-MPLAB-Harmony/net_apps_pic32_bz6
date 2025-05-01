@@ -4,7 +4,7 @@
 
 
 project: tcpip_udp_server
-creation_date: 2025-04-22T10:52:55.461-07:00[America/Phoenix]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2025-05-01T16:16:55-07:00[America/Phoenix]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 11
 mcc_mode: IDE            # [IDE|Standalone|Headless]
 mcc_version: v5.5.2
@@ -14,11 +14,11 @@ harmony_version: v1.5.4
 compiler: XC32 4.60
 
 modules:
-    - {name: "csp", version: "v3.22.0"}
+    - {name: "csp", version: "v3.22.2"}
     - {name: "core", version: "v3.15.1"}
     - {name: "CMSIS_5", version: "5.9.0"}
     - {name: "FreeRTOS-Kernel", version: "V11.1.0"}
-    - {name: "net", version: "dev_aa"}
+    - {name: "net", version: "v3.14.0"}
     - {name: "bsp", version: "v3.22.0"}
 
 packs:
