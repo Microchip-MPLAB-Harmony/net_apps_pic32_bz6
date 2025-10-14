@@ -3,6 +3,28 @@
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+## Network Application Examples for PIC32CX-BZ6 and PIC32WM-BZ6 Family, v1.0.1
+
+### New Features
+- None
+
+### Improvements and Bug Fixes
+- This release removed -Wall and -Werror option from all MPLABX applications.
+
+### Known Issues
+- None
+
+### Development Tools
+- Same as previous release (v1.0.0)
+
+### Development Kit Support
+- Same as previous release (v1.0.0)
+
+## Net Release Notes
+- Same as previous release (v1.0.0)
+
+---
+
 ## Network Application Examples for PIC32CX-BZ6 and PIC32WM-BZ6 Family, v1.0.0
 
 ### New Features
